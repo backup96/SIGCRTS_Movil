@@ -42,7 +42,7 @@ const singInProp = () => {
     <SafeAreaView>
       <ScrollView>
         <ImageBackground source={images.wall} resizeMode={"cover"}>
-          <View className="w-full justify-center items-center px-4 my-6">
+          <View className="w-full justify-center items-center px-4 min-h-[100vh]">
             <View className="mt-3 max-w-[80px] w-full">
               <Image
                 source={images.logo}

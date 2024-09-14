@@ -18,7 +18,7 @@ export default function App() {
     <SafeAreaView>
       <ScrollView>
         <ImageBackground source={images.wall} resizeMode={"cover"}>
-          <View className="w-full mb-6 justify-top items-center min-h-[85vh] px-3">
+          <View className="w-full mb-6 justify-top items-center min-h-[100vh] px-3">
             {/* Logo */}
             <View className="my-6 max-w-[80px] w-full h-[80px]">
               <Image
